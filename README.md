@@ -11,5 +11,5 @@ Run the project: `npm run start`
 
 ## Screenshots From Figma File
 
-![desktop](https://github.com/yusufcode/case-1/blob/master/case-requirements/desktop.jpg?raw=true)
-![desktop](https://github.com/yusufcode/case-1/blob/master/case-requirements/mobile.jpg?raw=true)
+![desktop](https://github.com/yusufcode/case-1/blob/master/case-requirements/desktop.png?raw=true)
+![desktop](https://github.com/yusufcode/case-1/blob/master/case-requirements/mobile.png?raw=true)
