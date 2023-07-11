@@ -8,3 +8,8 @@ Stack: React.js, JavaScript, TypeScript, Chakra UI, Swiper.js, Framer Motion, Fo
 Clone the repository: `git clone https://github.com/yusufcode/case-1.git`\
 Install npm packages: `npm i`\
 Run the project: `npm run start`
+
+## Screenshots From Figma File
+
+![desktop](https://github.com/yusufcode/case-1/blob/master/case-requirements/desktop.jpg?raw=true)
+![desktop](https://github.com/yusufcode/case-1/blob/master/case-requirements/mobile.jpg?raw=true)
