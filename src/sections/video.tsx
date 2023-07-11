@@ -1,11 +1,10 @@
 import { Box, Text } from '@chakra-ui/react'
-import React from 'react'
 import Button from '../components/button'
 
 const Video = () => {
   return (
     <Box bg="#434448" p={{sm: "16px", "md": "50px"}} display="flex" flexDir={{sm: "column", "md": "row"}} alignItems="center" justifyContent="space-between" flexWrap="wrap">
-      <Box w={{sm: "100%", "md": "60%"}} order={1}>
+      <Box w={{sm: "100%", "md": "60%"}} order={1} pr={{"md": "30px"}}>
         <Text fontSize={{sm: "24px", "md": "40px"}} fontWeight="700" lineHeight="normal" color="#fff">Feel the excellent wet braking with Driveways!</Text>
       </Box>
 

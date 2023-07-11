@@ -1,5 +1,4 @@
 import { Box } from '@chakra-ui/react'
-import React from 'react'
 import Navbar from '../layout/navbar'
 import Intro from '../sections/intro'
 import FeaturedProducts from '../sections/featuredProducts'

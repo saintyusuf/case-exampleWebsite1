@@ -1,6 +1,6 @@
-import { Box, Button, IconButton, Img, Link, ListItem, UnorderedList, useMediaQuery } from '@chakra-ui/react'
+import { Box, Button, Img, Link, useMediaQuery } from '@chakra-ui/react'
 import { AnimatePresence, motion } from 'framer-motion'
-import React, { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { AiOutlineMenu as IconMenu } from "react-icons/ai" 
 import { IoMdClose as IconClose } from "react-icons/io" 
 const Logo = require("../assets/images/logo/1.png")
@@ -45,8 +45,6 @@ const Navbar = () => {
 
   const [isLargerThan991] = useMediaQuery("(min-width: 991px)")
   const [showNavbar, setShowNavbar] = useState(false)
-
-  console.log(showNavbar, isLargerThan991)
 
   return (
     <Box w="100%" h={{sm: "56px", lg: "64px"}} display="flex" alignItems="center" pl={{sm: "21px", lg: "30px", xl: "60px"}} pr={{sm: "12px", lg: "30px", xl: "60px"}}>

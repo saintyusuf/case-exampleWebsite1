@@ -1,4 +1,4 @@
-import React, { FC, ReactNode } from 'react'
+import { FC, ReactNode } from 'react'
 import {Box, Button as ButtonElem, SystemStyleObject} from "@chakra-ui/react"
 
 interface Props {

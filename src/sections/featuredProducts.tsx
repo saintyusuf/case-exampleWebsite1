@@ -1,4 +1,3 @@
-import React, { useRef, useState } from 'react'
 import { Box, Text } from '@chakra-ui/react'
 import Button from '../components/button'
 import {Swiper, SwiperSlide} from 'swiper/react'
@@ -137,7 +136,7 @@ const FeaturedProducts = () => {
           <Box className="swiper-navigation"
             sx={{
               "&": {
-                display: {sm: "none", "md": "block"}
+                display: {sm: "none", lg: "block"}
               },
               "& div": {
                 pos: "absolute",
